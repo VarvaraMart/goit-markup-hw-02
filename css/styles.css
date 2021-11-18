@@ -1,0 +1,15 @@
+span {
+  color: #2196f3;
+}
+.menu-nav {
+  color: #212121;
+}
+.menu-nav :hover {
+  color: #2196f3;
+}
+.address {
+  color: #757575;
+}
+.address :hover {
+  color: #2196f3;
+}
