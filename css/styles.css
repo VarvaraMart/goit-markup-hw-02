@@ -1,15 +1,40 @@
+/* палитра 
+accent-color  - #2196F3
+primary-color-text - #757575
+heading-color - #212121
+background-color - #ffffff
+secondary-color - #F5F4FA
+footer-color - #2F303A */
+
+:root {
+  --accent-color: #2196f3;
+  --primary-color-text: #757575;
+  --heading-color: #212121;
+  --background-color: #ffffff;
+  --secondary-color: #f5f4fa;
+  --footer-color: #2f303a;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--primary-color-text);
+}
+ul {
+  list-style: none;
+}
 span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .menu-nav {
-  color: #212121;
+  color: var(--heading-color);
 }
-.menu-nav :hover {
-  color: #2196f3;
+.menu-nav :hover,
+.menu-nav :focus {
+  color: var(--accent-color);
 }
 .address {
-  color: #757575;
+  color: var(--primary-color-text);
 }
-.address :hover {
-  color: #2196f3;
+.address :hover,
+.address :focus {
+  color: var(--accent-color);
 }
