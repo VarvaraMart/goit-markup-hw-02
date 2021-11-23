@@ -21,9 +21,10 @@ body {
 ul {
   list-style: none;
 }
-span {
+.logo span {
   color: var(--accent-color);
 }
+
 .menu-nav {
   color: var(--heading-color);
 }
@@ -31,10 +32,38 @@ span {
 .menu-nav :focus {
   color: var(--accent-color);
 }
-.address {
+.menu-nav .address {
   color: var(--primary-color-text);
+}
+.menu-nav .link.current {
+  color: var(--accent-color);
+}
+.hero {
+  background-color: var(--footer-color);
+  color: var(--background-color);
+}
+.benefit-heading {
+  color: var(--heading-color);
+}
+.work-heading {
+  color: var(--heading-color);
+}
+.team {
+  background-color: var(--secondary-color);
+}
+.team h2 {
+  color: var(--heading-color);
+}
+.team-heading {
+  color: var(--heading-color);
+}
+.footer {
+  background-color: var(--footer-color);
 }
 .address :hover,
 .address :focus {
   color: var(--accent-color);
+}
+.jobs-heading {
+  color: var(--heading-color);
 }
