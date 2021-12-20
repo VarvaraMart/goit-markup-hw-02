@@ -15,7 +15,7 @@ footer-color - #2F303A */
   --footer-color: #2f303a;
 }
 body {
-  font-family: Roboto;
+  font-family: 'Roboto', 'Gilroy', 'Open Sans', sans-serif;
   background-color: var(--background-color);
   color: var(--primary-color-text);
 }
@@ -30,16 +30,24 @@ a:visited {
 }
 
 nav .logo {
-  font-family: 'Raleway';
-  line-height: normal;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.4;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 25%);
 }
 .logo span {
   color: var(--accent-color);
 }
+.footer .logo {
+  color: var(--background-color);
+}
 
 .menu-nav {
   color: var(--heading-color);
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.14;
 }
 .menu-nav :hover,
 .menu-nav :focus {
@@ -55,8 +63,21 @@ nav .logo {
   background-color: var(--footer-color);
   color: var(--background-color);
 }
+.hero h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .benefit-heading {
   color: var(--heading-color);
+}
+.button {
+  cursor: pointer;
 }
 .work-heading {
   color: var(--heading-color);
@@ -73,12 +94,17 @@ nav .logo {
 .footer {
   background-color: var(--footer-color);
 }
-
 .address :hover,
 .address :focus {
   color: var(--accent-color);
 }
-
+.footer .address {
+  color: var(--background-color);
+}
+.address a {
+  text-decoration: none;
+  color: rgba (225, 225, 225, 60%);
+}
 .jobs-heading {
   color: var(--heading-color);
 }
